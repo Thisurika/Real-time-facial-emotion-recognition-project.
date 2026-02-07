@@ -15,7 +15,3 @@ This project uses artificial intelligence to detect and classify human facial ex
 - **TensorFlow / Keras** – for emotion recognition
 - **NumPy & Pandas** – for data handling
 
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/facial-expression-detection.git
