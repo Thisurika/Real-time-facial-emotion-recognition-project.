@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 model=load_model('model_file_30epochs.h5')
 
@@ -28,4 +28,5 @@ for x,y,w,h in faces:
         
 cv2.imshow("Frame",frame)
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
