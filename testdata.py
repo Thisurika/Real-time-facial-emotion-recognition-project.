@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model=load_model('model_file_30epochs.h5')
+model=load_model('model_file.h5')
 
 faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
@@ -30,3 +30,4 @@ cv2.imshow("Frame",frame)
 cv2.waitKey(0)
 
 cv2.destroyAllWindows()
+
