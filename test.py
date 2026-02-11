@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model=load_model('model_file_30epochs.h5')
+model=load_model('model_file.h5')
 
 video=cv2.VideoCapture(0)
 
@@ -35,3 +35,4 @@ while True:
 video.release()
 
 cv2.destroyAllWindows()
+
