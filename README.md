@@ -60,17 +60,7 @@ Simple but effective CNN:
 
 ### Folder Structure
 Facial-Emotion-Project/
-├── data/                        # FER-2013 dataset (not uploaded to GitHub – too large)
-│   ├── train/
-│   │   ├── Angry/      (~4k images)
-│   │   ├── Disgust/
-│   │   ├── Fear/
-│   │   ├── Happy/
-│   │   ├── Neutral/
-│   │   ├── Sad/
-│   │   └── Surprise/
-│   └── test/                    
-│       └── (same 7 folders)
+├── data/             # FER-2013 dataset (not uploaded to GitHub – too large)
 ├── tf-env/                      (virtual environment – ignored in .gitignore)
 ├── main.py                      # training script
 ├── test.py                      # real-time webcam inference
