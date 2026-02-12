@@ -57,7 +57,24 @@ Simple but effective CNN:
 - Loss: Categorical Crossentropy
 - Metrics: Accuracy
 - Training: 30 epochs
-- Final validation accuracy: ~57.3% (typical range for basic CNN on FER-2013)
 
 ### Folder Structure
+Facial-Emotion-Project/
+├── data/                        # FER-2013 dataset (not uploaded to GitHub – too large)
+│   ├── train/
+│   │   ├── Angry/      (~4k images)
+│   │   ├── Disgust/
+│   │   ├── Fear/
+│   │   ├── Happy/
+│   │   ├── Neutral/
+│   │   ├── Sad/
+│   │   └── Surprise/
+│   └── test/                    
+│       └── (same 7 folders)
+├── tf-env/                      (virtual environment – ignored in .gitignore)
+├── main.py                      # training script
+├── test.py                      # real-time webcam inference
+├── testdata.py                  # static image inference
+├── model_file.h5                # latest trained model 
+└── README.md
 
