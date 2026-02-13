@@ -60,6 +60,7 @@ Simple but effective CNN:
 
 ## Folder Structure
 Facial-Emotion-Project/
+
  ├── data/ 
  
  │   ├── train/
