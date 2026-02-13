@@ -92,3 +92,19 @@ Facial-Emotion-Project/
  
  └── README.md
 
+ ## Installation
+
+```bash
+# Clone
+git clone https://github.com/YOUR-USERNAME/Facial-Emotion-Project.git
+cd Facial-Emotion-Project
+
+# Virtual environment
+python -m venv tf-env
+tf-env\Scripts\activate          # Windows
+# or
+source tf-env/bin/activate       # macOS/Linux
+
+# Dependencies
+pip install tensorflow opencv-python numpy
+
