@@ -60,20 +60,20 @@ Simple but effective CNN:
 
 ## Folder Structure
 Facial-Emotion-Project/
-├── data/                        # FER-2013 images (not in Git – too large)
-│   ├── train/
-│   │   ├── Angry/
-│   │   ├── Disgust/
-│   │   ├── Fear/
-│   │   ├── Happy/
-│   │   ├── Neutral/
-│   │   ├── Sad/
-│   │   └── Surprise/
-│   └── test/                    (or validation/)
-├── tf-env/                      # virtual environment (ignored)
-├── main.py                      # training script
-├── test.py                      # real-time webcam demo
-├── testdata.py                  # static image test
-├── model_file.h5                # latest trained model (~29 MB)
-└── README.md
+ ├── data/                        # FER-2013 images (not in Git – too large)
+ │   ├── train/
+ │   │   ├── Angry/
+ │   │   ├── Disgust/
+ │   │   ├── Fear/
+ │   │   ├── Happy/
+ │   │   ├── Neutral/
+ │   │   ├── Sad/
+ │   │   └── Surprise/
+ │   └── test/                    (or validation/)
+ ├── tf-env/                      # virtual environment (ignored)
+ ├── main.py                      # training script
+ ├── test.py                      # real-time webcam demo
+ ├── testdata.py                  # static image test
+ ├── model_file.h5                # latest trained model (~29 MB)
+ └── README.md
 
