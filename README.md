@@ -58,13 +58,22 @@ Simple but effective CNN:
 - Metrics: Accuracy
 - Training: 30 epochs
 
-### Folder Structure
+## Folder Structure
 Facial-Emotion-Project/
-├── data/             # FER-2013 dataset (not uploaded to GitHub – too large)
-├── tf-env/                      (virtual environment – ignored in .gitignore)
+├── data/                        # FER-2013 images (not in Git – too large)
+│   ├── train/
+│   │   ├── Angry/
+│   │   ├── Disgust/
+│   │   ├── Fear/
+│   │   ├── Happy/
+│   │   ├── Neutral/
+│   │   ├── Sad/
+│   │   └── Surprise/
+│   └── test/                    (or validation/)
+├── tf-env/                      # virtual environment (ignored)
 ├── main.py                      # training script
-├── test.py                      # real-time webcam inference
-├── testdata.py                  # static image inference
-├── model_file.h5                # latest trained model 
+├── test.py                      # real-time webcam demo
+├── testdata.py                  # static image test
+├── model_file.h5                # latest trained model (~29 MB)
 └── README.md
 
