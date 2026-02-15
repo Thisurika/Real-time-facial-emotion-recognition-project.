@@ -4,10 +4,6 @@ Real-time facial emotion detection system using a Convolutional Neural Network (
 
 Detects 7 emotions: **Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise**
 
-## Demo
-
-https://user-images.githubusercontent.com/xxxxxxxx/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.mp4  
-*(add your own short screen recording later – webcam demo)*
 
 ## Project Overview
 
