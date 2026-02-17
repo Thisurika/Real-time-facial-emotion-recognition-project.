@@ -90,19 +90,46 @@ Facial-Emotion-Project/
 
  ## Installation
 
-```bash
-# Clone
-git clone https://github.com/YOUR-USERNAME/Facial-Emotion-Project.git
+## Quick Start – Step-by-Step
 
+### 1. Clone or Download the Repository
+
+**Clone with Git** (recommended):
+```bash
+git clone https://github.com/Thisurika-Hasajith-Padmasiri/Facial-Emotion-Project.git
 cd Facial-Emotion-Project
 
-# Virtual environment
-python -m venv tf-env
-tf-env\Scripts\activate          # Windows
+### 2. Set Up Python Environment
+# Create virtual environment
+python -m venv env
+
+# Activate it
+env\Scripts\activate           # Windows
 # or
-source tf-env/bin/activate       # macOS/Linux
+source env/bin/activate        # macOS / Linux
+
+### 3. Install Dependencies
+
+# Method A – Helper script
+python install_dependencies.py
+
+# Method B – Using requirements.txt
+pip install -r requirements.txt
+
+# Manual install
+pip install tensorflow opencv-python numpy scipy scikit-learn
+
+### Run the Project
+python test.py
+
+###For improvment you can train anoher model use data preprocessing techniques to get more accuracy
 
 
-# Dependencies
-pip install tensorflow opencv-python numpy
+### Quick final actions
+
+1. Replace your README.md with this content
+2. Save
+3. Commit & push:
+
+
 
