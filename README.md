@@ -129,7 +129,7 @@ python test.py
 
 1. Replace your README.md with this content
 2. Save
-3. Commit & push:
+3. Commit & push:.................
 
 
 
