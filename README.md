@@ -54,6 +54,22 @@ Simple but effective CNN:
 - Metrics: Accuracy
 - Training: 30 epochs
 
+## Demo / Results
+
+Here are some example outputs from the real-time webcam demo (`test.py`) and static image tests:
+
+<p align="center">
+  <img src="screenshots/1.png" alt="Real-time emotion detection example 1" width="32%" />
+  <img src="screenshots/2.png" alt="Real-time emotion detection example 2" width="32%" />
+  <img src="screenshots/3.png" alt="Real-time emotion detection example 3" width="32%" />
+</p>
+
+<p align="center">
+  <em>Live detections showing different emotions with bounding boxes and labels</em>
+</p>
+
+(Images are shown side-by-side on wide screens and stack vertically on smaller devices.)
+
 ## Folder Structure
 Facial-Emotion-Project/
 
